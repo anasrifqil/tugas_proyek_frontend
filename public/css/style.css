@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-title {
+  font-size: 42px !important;
+  line-height: 63px;
+  font-weight: 800;
+}
+ul.nav {
+  width: 100%;
+}
+ul.nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.container-fluid.about {
+  position: relative;
+  min-height: 540px;
+}
+.container-fluid.about .kotak {
+  position: relative;
+  height: 500px;
+}
+.container-fluid.about .kotak h1 {
+  font-size: 40px;
+  line-height: 74px;
+  font-weight: 700;
+  font-style: italic;
+}
+.container-fluid.about .kotak h1 span {
+  color: #ffe145;
+}
+.container-fluid.about .kotak p {
+  width: 90%;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.container-fluid.about .kotak .button {
+  box-shadow: 5px 6px 2px 0px rgba(173, 173, 173, 0.78);
+  -webkit-box-shadow: 5px 6px 2px 0px rgba(173, 173, 173, 0.78);
+  -moz-box-shadow: 5px 6px 2px 0px rgba(173, 173, 173, 0.78);
+  background-color: #d9d9d9;
+  height: 67px;
+  width: 309px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  font-style: italic;
+  line-height: 37px;
+  font-weight: 700;
+}
+.container-fluid.about .kotak.kotak-about .button {
+  position: absolute;
+  bottom: 0.5rem;
+}
+.container-fluid.about .kotak.kuning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  background-color: #ffe145;
+}
+.container-fluid.about .kotak.kuning img.header-image {
+  height: 300px;
+  width: 400px;
+}
+.row.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row.second-row h1 {
+  text-align: center;
+  width: 500px;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+}
+.container-fluid.branding {
+  background-color: black;
+}
+.container-fluid.branding .branding-about {
+  color: white;
+  margin-top: 25px;
+}
+.container-fluid.branding .branding-about h2 span {
+  color: #ffe145;
+}
+.container-fluid.branding .images {
+  background-color: white;
+}
+.container-fluid.branding .images .produk-new img.image {
+  width: 100%;
+  height: 250px;
+}
+.container-fluid.branding .images .star {
+  display: flex;
+  flex-direction: column;
+}
+.container-fluid.branding .images .star .star-new {
+  width: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 54px;
+  transform: rotate(90deg);
+}
+.container-fluid.branding .images .star img {
+  height: 40px;
+  width: 40px;
+}
+section.produk .produk .card {
+  min-height: 373px;
+  width: 400px;
+}
+section.produk .produk .card .title .new {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 43px;
+  color: black;
+}
+section.produk .produk .card .title .persen {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 800;
+  color: black;
+}
+section.produk .produk .card {
+  box-sizing: border-box;
+  margin: 0px auto 15px auto;
+  cursor: pointer;
+}
+section.produk .produk .card .container-produk {
+  background-color: #ececec;
+}
+
+section.produk .produk .card .container-produk .love img {
+  height: 40px;
+  width: 40px;
+}
+section.produk .produk .card .image img {
+  height: 220px;
+}
+section.produk .produk .card .detail .tipe {
+  font-size: 14px;
+  color: #959595;
+  font-weight: 400;
+}
+section.produk .produk .card .detail .title-produk {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+section.produk .produk .card .detail .price {
+  font-weight: 400;
+  color: black;
+}
+footer .container.container-top {
+  min-height: 137px;
+  background-color: black;
+  border-radius: 12px;
+}
+footer h1.title-footer {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* kontak css */
+.container-fluid.kontak {
+  min-height: 540px;
+}
+.container-fluid.kontak .images {
+  max-height: 20rem;
+  max-width: 20rem;
+}
+
+@media (min-width: 500px) {
+  .container-fluid.about .kotak.kuning {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid.branding .images .produk-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.nav {
+    width: 40%;
+  }
+  .container-fluid.branding .images .produk-new img.image {
+    width: 380px;
+    height: 400px;
+  }
+  section.produk .produk .card {
+    margin: 0px auto 15px 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  ul.nav {
+    width: 30%;
+  }
+
+  .container-fluid.about .kotak {
+    top: -0.1rem;
+    z-index: -5;
+    position: absolute;
+  }
+  .container-fluid.about .kotak.kuning img.header-image {
+    left: -8rem;
+    top: 5.5rem;
+    position: absolute;
+    height: 400px;
+    width: 600px;
+  }
+  .container-fluid.branding .branding-about p.about-produk {
+    margin-top: 3rem;
+  }
+  .container-fluid.branding .branding-about p.price {
+    margin-top: 20rem;
+  }
+}
